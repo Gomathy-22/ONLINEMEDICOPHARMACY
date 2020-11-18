@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Contact">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="contactus"/>
+        <xs:element ref="social-media"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contactus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="module1"/>
+        <xs:element ref="module2"/>
+        <xs:element ref="module3"/>
+        <xs:element ref="module4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="social-media">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="module1"/>
+        <xs:element ref="module2"/>
+        <xs:element ref="module3"/>
+        <xs:element ref="module4"/>
+        <xs:element ref="module5"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="module5" type="xs:NCName"/>
+  <xs:element name="module1" type="xs:NCName"/>
+  <xs:element name="module2" type="xs:NCName"/>
+  <xs:element name="module3" type="xs:NCName"/>
+  <xs:element name="module4" type="xs:NCName"/>
+</xs:schema>

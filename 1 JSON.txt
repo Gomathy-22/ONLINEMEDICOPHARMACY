@@ -1,0 +1,20 @@
+{
+   "home": {
+      "items_category": {
+         "module1": "Covid19 products",
+         "module2": "Home Products",
+         "module3": "Medicines",
+         "module4": "First aid kit",
+      },
+      "quantity_course": {
+         "module1": "Full Dose",
+         "module2": "Half Dose",
+         "module3": "Low Dose"
+      },
+      "contact_info": {
+         "module1": "Annai Road",
+         "module2": "Madurai,TN",
+         "module3": "onlinemedicopharmacy@gmail.com"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<aboutus>
+<h1> About us </h1>
+   <country>INDIA</country><br></br>
+<functions>	
+<place scale="F">Madurai</place><br></br>
+<Items scale="F">Quality Medicines only</Items><br></br>
+<certified>Certified from medical board</certified><br></br>
+<Delivery>Home delivery available</Delivery><br></br>
+<Pickup>Easy pick up available</Pickup>
+</functions>
+</aboutus>

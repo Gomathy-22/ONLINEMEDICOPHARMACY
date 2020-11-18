@@ -1,0 +1,33 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Contact (contactus,social-media)>
+<!ATTLIST Contact
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contactus (module1,module2,module3,module4)>
+<!ATTLIST contactus
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT social-media (module1,module2,module3,module4,module5)>
+<!ATTLIST social-media
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module5 (#PCDATA)>
+<!ATTLIST module5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module1 (#PCDATA)>
+<!ATTLIST module1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module2 (#PCDATA)>
+<!ATTLIST module2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module3 (#PCDATA)>
+<!ATTLIST module3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module4 (#PCDATA)>
+<!ATTLIST module4
+  xmlns CDATA #FIXED ''>

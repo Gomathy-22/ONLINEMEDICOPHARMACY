@@ -1,0 +1,43 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT aboutus (h1,country,br,functions)>
+<!ATTLIST aboutus
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT h1 (#PCDATA)>
+<!ATTLIST h1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST country
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT functions (place,(br|Delivery|Items|certified)+,Pickup)>
+<!ATTLIST functions
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT place (#PCDATA)>
+<!ATTLIST place
+  xmlns CDATA #FIXED ''
+  scale NMTOKEN #REQUIRED>
+
+<!ELEMENT Delivery (#PCDATA)>
+<!ATTLIST Delivery
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Items (#PCDATA)>
+<!ATTLIST Items
+  xmlns CDATA #FIXED ''
+  scale NMTOKEN #REQUIRED>
+
+<!ELEMENT certified (#PCDATA)>
+<!ATTLIST certified
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pickup (#PCDATA)>
+<!ATTLIST Pickup
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT br EMPTY>
+<!ATTLIST br
+  xmlns CDATA #FIXED ''>

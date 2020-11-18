@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Contact>
+<h1> Contact us </h1>
+   <number>9000111188</number><br></br>
+   <city>MADURAI</city>,<br></br> <state>TAMILNADU</state><br></br>
+   <country>INDIA</country><br><br></br></br>
+<social-media>	
+<instagram scale="F">Instagram</instagram><br></br>
+<whatsapp scale="F">Whatsapp</whatsapp><br></br>
+<twitter>Twitter</twitter><br></br>
+<facebook>Facebook</facebook><br></br>
+<telegram>Telegram</telegram>
+</social-media>
+</Contact>

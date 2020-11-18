@@ -1,0 +1,21 @@
+{
+   "aboutus": {
+      "about_us": {
+         "module1": "Created on: october 2020",
+         "module2": "Name: LearnNew organisation",
+         "module3": "Learning platform: ONLINE MEDICO PHARMACY",
+         "module4": "CERTIFIED products only"
+      },
+      "bottom": {
+         "module1": "Contact us",
+         "module2": "Take away",
+         "module3": "Home delivery",
+         "module4": []
+      },
+      "contact_info": {
+         "module1": "Annai Road",
+         "module2": "Madurai,TN",
+         "module3": "onlinemedicopharmacy@gmail.com"
+      }
+   }
+}

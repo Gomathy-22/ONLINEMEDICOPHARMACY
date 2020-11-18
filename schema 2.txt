@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="aboutus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="h1"/>
+        <xs:element ref="country"/>
+        <xs:element ref="br"/>
+        <xs:element ref="functions"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="h1" type="xs:string"/>
+  <xs:element name="country" type="xs:NCName"/>
+  <xs:element name="functions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="place"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="br"/>
+          <xs:element ref="Delivery"/>
+          <xs:element ref="Items"/>
+          <xs:element ref="certified"/>
+        </xs:choice>
+        <xs:element ref="Pickup"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="place">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="scale" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Delivery" type="xs:string"/>
+  <xs:element name="Items">
+    <xs:complexType mixed="true">
+      <xs:attribute name="scale" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="certified" type="xs:string"/>
+  <xs:element name="Pickup" type="xs:string"/>
+  <xs:element name="br">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>
